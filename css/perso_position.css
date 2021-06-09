@@ -1,0 +1,51 @@
+#contenu{
+    position: absolute;
+    left:25%;
+    top:22%;
+    width : 70%;
+    height : 80%;
+    overflow:scroll;
+}
+
+nav{
+    position: absolute;
+    left:1%;
+    top:22%;
+    width : 20%;
+    height : 80%;
+    overflow:scroll;
+
+    font-size: 20px;
+}
+
+h1{
+    position: absolute;
+    left:10%;
+    top:0%;
+    width: 30%;
+}
+
+.localisation{
+    position: absolute;
+    left:5%;
+    top:10%;
+    width: 30%;
+}
+
+#toDoListe{
+    position: absolute;
+    left: 37%;
+    top:4%;
+}
+
+#bnu{
+    position: absolute;
+    left: 50%;
+    top:4%;
+}
+
+#reseau_maison{
+    position:absolute;
+    left : 75%;
+    top : 5%;
+}

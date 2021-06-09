@@ -1,0 +1,14 @@
+.enLigne{
+    display:inline;
+}
+
+.bord{
+    border: 2px solid violet;
+    border-radius: 3%;
+    padding: 1%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+}
