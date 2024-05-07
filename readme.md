@@ -1,9 +1,9 @@
 # README
 
-## Auteurs
+## Auteurs
 1. Dominique SAUVIGNON
 
 
-## Technologies
+## Technologies
 1. html
 2. css
