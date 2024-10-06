@@ -13,36 +13,30 @@
 	<body onload="cacher();">
 
 		<h1>Page d'accueil perso</h1>
-        <p class="localisation"><?php echo $_SERVER['DOCUMENT_ROOT'] ?></p>
-        <div id="reseau_maison">
-            Élement réseau :
-            <ul class="list-group">
-                <li>Livebox-9DE2 : <a href="http://192.168.1.1/" target="_blank" title="Livebox">ici</a></li>
-                <li>Routeur TrendNet : <a href="http://192.168.10.1" target="_blank" title="TrendNet">ici</a></li>
-                <li>Raspberry en local : <a href="" target="_blank" title="Raspberry en local">ici</a></li>
-                <li>Raspberry de l'extérieur : <a href="http://90.126.47.95" target="_blank" title="Raspberry Pi">ici</a></li>
-            </ul>
-        </div>
+        <p class="localisation"><?php // echo $_SERVER['DOCUMENT_ROOT'] ?></p>
+
 
         <div id="toDoListe" class="bord">
             <ul class="list-group-item">
                 <li class="enLigne">
                     <a href="https://desktop.any.do/tasks/all" target="_blank">
-                        <img src="images/todoliste_favicon.png" alt="ToDoListe" title="ToDoListe" width="30"></a></li>
-                <li class="enLigne">
+                        <img src="img/Any.do_logo.png" alt="Any.do (ToDoListe)" title="Any.do (ToDoListe)" width="30"></a></li>
+                <!--<li class="enLigne">
                     <a href="https://www.fitbit.com/activities" target="_blank">
-                        <img src="images/fitbit.png" alt="Fitbit" width="30" title="Fitbit"></a></li>
+                        <img src="images/fitbit.png" alt="Fitbit" width="30" title="Fitbit"></a>
+                    </li>
+                -->
             </ul>
         </div>
         <div id="bnu" class="bord">
             <ul>
                 <li class="enLigne">BNU :
                     <ul>
-                        <li style="display:inline">Wifi : <a href="https://pcap.u-strasbg.fr/?switch_url=https://wifi-pcap.u-strasbg.fr/login.html&ap_mac=88:f0:31:da:86:60&client_mac=88:e9:fe:85:96:8c&wlan=osiris&redirect=detectportal.firefox.com/success.txt" target="_blank">
+                        <!--<li style="display:inline">Wifi : <a href="https://pcap.u-strasbg.fr/?switch_url=https://wifi-pcap.u-strasbg.fr/login.html&ap_mac=88:f0:31:da:86:60&client_mac=88:e9:fe:85:96:8c&wlan=osiris&redirect=detectportal.firefox.com/success.txt" target="_blank">
                             <img src="images/BNU-Wifi-Osiris.png" alt="Wifi Osiris" title="wifi Osiris" width="30"></a>
-                        </li>
+                        </li>-->
                         <li style="display:inline">info : <a href="https://www.unistra.fr/index.php?id=19720" target="_blank">
-                        <img src="images/unistra.png" alt="Université de Strasbourg" width="100"></a>
+                        <img src="img/csm_LOGO-BNU-3cm-NOIR_f37333b0b2.png" alt="Bibliothèque Nationale et Université de Strasbourg" width="100"></a>
                         </li>
                 <!--<li style="display:inline">prêt : <a href="http://opac.bnu.fr/Vubis.csp?OpacLanguage=fre&Profile=Default&EncodedRequest=*E4*5C*28y*A1*D8*25*04*C1*04*D1*F2*B8*29r*A0&Module=Vubis&ExtraInfo=&SearchMethod=Find_2" target="_blank">ici</a></li>-->
                     </ul>
@@ -73,6 +67,7 @@
                 <li class="list-group-item"><a href="#télé">télé</a></li>
                 <li class="list-group-item"><a href="#apple">APPLE</a></li>
                 <li class="list-group-item"><a href="#calendrier">Calendrier</a></li>
+                <li class="list-group-item"><a href="#materiels-maison">Matériels à la maison</a></li>
             </ul>
         </nav>
 
@@ -446,7 +441,28 @@
             </div>
 
 
+            <h3 id="materiels-maison">Matériels à la maison</h3>
+            <h4>Ordinateurs</h4>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    HP Elite Book 840 G3 => <a href="https://support.hp.com/ch-fr/document/c05268678" target="_blank" title="HP 840 G3">
+                    <img src="img/HP_EB840G3_c05263112.avif" alt="HP 840 G3" width="75"></a>
+                </li>
+                <li class="list-group-item">
+                    Mon DELL Latitude 7480 => <a href="https://www.dell.com/support/manuals/fr-fr/latitude-14-7480-laptop/latitude_7480_ownersmanual/caract%C3%A9ristiques-du-stockage?guid=guid-5fb484a3-c148-4270-8c73-66ea13dd3234&lang=fr-fr"
+                target="_blank" title="Latitude 7480">
+                    <img src="img/DELL_Latitude7480_OriginalPng.avif" alt="DELL Latitude 7480" width="75">
+                </a>
+                </li>
+            </ul>
 
+            <h4>Élement réseau</h4>
+            <ul class="list-group">
+                <li class="list-group-item">Livebox-9DE2 : <a href="http://192.168.1.1/" target="_blank" title="Livebox">ici</a></li>
+                <li class="list-group-item">Routeur TrendNet : <a href="http://192.168.10.1" target="_blank" title="TrendNet">ici</a></li>
+                <li class="list-group-item">Raspberry en local : <a href="" target="_blank" title="Raspberry en local">ici</a></li>
+                <li class="list-group-item">Raspberry de l'extérieur : <a href="http://90.126.47.95" target="_blank" title="Raspberry Pi">ici</a></li>
+            </ul>
         </div>
         <link href="css/perso_position.css" rel="stylesheet" media="all" type="text/css">
         <link href="css/perso_style.css" rel="stylesheet" media="all" type="text/css">
