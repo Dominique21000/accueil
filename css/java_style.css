@@ -1,18 +1,53 @@
 nav{
-    border: thick double #32a1ce;
+    /*border: thick double #32a1ce; */
+    
+    /* largeur | style | couleur */
+    border: medium solid blue;
+
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    
+    /*
+    border-color: blue;
+    border-width : 1px thick 1em;
+*/
+
 }
 
 #java{
-    border: thick double #32a1ce;
+    /*border: thick double #32a1ce;*/
+    
+    /* largeur | style | couleur */
+    border: medium solid red;
+
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+
     overflow:scroll;
-    padding: 2%;
+    padding: 10%;    
 }
 
 
 .contour{
-    border: thick double #32a1ce;
+   border: thick double #32a1ce; 
+   /* -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border-color: blue;
+    border-width : 1px thick 1em;
+*/
 }
 
 .menu{
-    padding-top: 2%;
+    padding-top: 2%;  
 }
+
+.center{
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
