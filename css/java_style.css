@@ -12,6 +12,7 @@ nav{
     border-color: blue;
     border-width : 1px thick 1em;
 */
+    height:680px;
 
 }
 
@@ -27,6 +28,8 @@ nav{
 
     overflow:scroll;
     padding: 10%;    
+    height: 680px;
+
 }
 
 
