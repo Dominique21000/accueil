@@ -1,0 +1,12 @@
+name: accueil
+
+services:
+  web:
+    image: php:8.2-apache
+    ports:
+      - "80:80"
+    volumes:
+      - /mnt/d/Informatique/dev-info-hpeb/www/:/var/www/html/
+      - /mnt/d/Informatique/dev-info-hpeb/www/intranet/accueil/conf/:/etc/apache2/conf-enabled/
+
+    restart: unless-stopped  
